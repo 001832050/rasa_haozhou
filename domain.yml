@@ -1,0 +1,24 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: 你好鸭，很高兴和你谈话哦~
+  utter_cheer_up:
+  - text: 让我们干杯吧！
+  utter_did_that_help:
+  - text: 有帮助到你吗
+  utter_happy:
+  - text: 加油哦！我很开心
+  utter_goodbye:
+  - text: 下回见哦
+  utter_iamabot:
+  - text: 你好，我叫拉萨，很高兴为你服务

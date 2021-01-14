@@ -1,0 +1,92 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - 哟，你在干什么哦~
+    - 我们出发！
+    - 你好，很高兴见到你
+    - 早安哦，宝贝
+    - 晚上好！
+    - 下午好呀
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - 拜拜咯
+    - 88
+    - 祝你开心每天
+    - 我们下回再约
+    - 再见！
+    - 下回见了
+
+- intent: affirm
+  examples: |
+    - 没错
+    - 是的
+    - 对的
+    - 当然咯
+    - 你回答的很好
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - 我不认为是这样
+    - 不可能，我不信
+    - 不是这样的
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - 真是爽，哈哈哈
+    - 我将拯救世界！
+    - 你真是太棒了
+    - 哈哈哈，高兴极了
+    - 完美到极点呢
+    - 嗯呢，很好
+    - 真是太棒啦
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - 老子不开心
+    - 嗯，不太舒服
+    - 有点不爽啊
+    - 特别头大
+    - 难受，香菇
+    - 我很失望，很难过
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - 你是人是机器？
+    - 我在跟机器人说话？
+    - 我是在跟真人说话了吗
+    - 你行不行啊，我很怀疑哦
